@@ -1,0 +1,120 @@
+.modal-dialog {
+    max-width: 1000px;
+    margin: 1.75rem auto;
+}
+.wsb
+{
+  border:1px solid #11d953;
+  padding-top: 10px;
+      padding-bottom: 10px;
+}
+.wsb2
+{
+  border:1px solid #11d953;
+  height: 120px;
+  display: inline-grid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1px;
+}
+.work-select
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;  
+  background-color: #ececec;
+  padding-left: 1px;
+}
+
+.work-select:hover {
+  height: 32px !important;
+  width: 100%;
+  border-radius: 0px;
+}
+.secondary-color
+{
+  color: #11d953;
+}
+span {
+    font-size: 14px;
+    color: darkblue;
+    
+   
+}
+.purple
+{
+  color: #ac0eb7;
+}
+
+#out {
+  width: 80px;
+   height:80px; 
+   object-fit: content;
+    display: block;
+    position: center;
+}
+
+/* hide if it would show the error img */
+#out[src=''] {
+  opacity: 0;
+}
+
+input#inputFile {
+  font-size: 9px !important;
+  width:100%;
+  margin-left: 12px;
+}
+
+.imageInput{
+  font-size: 10px !important;
+}
+#time_alloted{
+  border:none;
+  text-align:center;
+  
+}
+
+#description{
+  border:none;
+  text-align: center;
+
+}
+
+#assign{
+  border:none;
+  text-align:center;
+}
+
+#get_work{
+  border:none;
+  text-align:center;
+}
+
+#status{
+  border:none;
+  text-align:justify;
+}
+
+#final_status{
+  border:none;
+  text-align:center;
+}
+.primary-color
+{
+  color: #095d;
+}
+.bg-primary-color
+{
+  background-color: #095d;
+}
+.secondary-color
+{
+  color: #2ed3c6;
+}
+.bg-secondary-color
+{
+  background-color: #2ed3c6;
+}
